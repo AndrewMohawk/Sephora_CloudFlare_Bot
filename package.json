@@ -1,0 +1,12 @@
+{
+  "name": "cloudflare-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  }
+}

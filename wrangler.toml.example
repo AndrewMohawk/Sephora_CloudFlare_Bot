@@ -1,0 +1,16 @@
+compatibility_date = "2023-11-29"
+name = "sephora-cloudflare-bot"
+send_email = [
+   	{type = "send_email", name = "TEST_EMAIL", destination_address = "user1@email.com"},
+]
+
+kv_namespaces = [
+  { binding = "SEPHORA_DATA_KV_STORE", id = "IDOFKVSTORE" }
+]
+
+[vars]
+EMAIL_RECIPIENTS = "user1@email.com,user2@emailcom"
+POINTS_TO_CHECK_ARRAY = [0,600]
+
+[triggers]
+crons = [ "*/15 * * * *" ]
